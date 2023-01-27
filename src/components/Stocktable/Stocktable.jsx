@@ -18,6 +18,7 @@ const Stocktable = ({ input, data, setData }) => {
   console.log(data);
   useEffect(() => {
     fetchData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [input]);
 
   return (
