@@ -1,12 +1,11 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Stocktable from "../Stocktable/Stocktable";
 import "./Searchbar.css";
 
 const Searchbar = () => {
   const [input, setInput] = useState("");
 
-  //   Stocks-Data
   const [data, setData] = useState([]);
 
   function handleInputChange(event) {

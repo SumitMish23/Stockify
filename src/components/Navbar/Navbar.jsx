@@ -1,8 +1,6 @@
 import React from "react";
-import { useState } from "react";
 import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Menu = () => {
   return (

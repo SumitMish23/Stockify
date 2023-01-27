@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import "./Stocktable.css";
-import {useSelector, useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import allActions from '../../Redux/actions/index'
 import { AiFillPlusCircle } from "react-icons/ai";
 
