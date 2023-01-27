@@ -1,0 +1,34 @@
+.stocks-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: black;
+  font-family: Manrope;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.stocks-table th {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 1rem;
+  background-color: #ff4820;
+  color: #fff;
+  border-radius: 5px;
+}
+.stocks-table td {
+  text-align: center;
+  padding: 0.4rem;
+}
+.stocks-table tr:hover {
+  background-color: antiquewhite;
+}
+.stocks-table .add-icon {
+  margin-top: 0.5rem;
+}
+.icon:hover,
+.icon:active {
+  fill: blue;
+  height: 20px;
+}
+
+

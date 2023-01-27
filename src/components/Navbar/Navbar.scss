@@ -1,0 +1,83 @@
+
+.stocklist__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 8rem;
+  color: white;
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  .stocklist__navbar-links {
+    display: flex;
+    align-items: center;
+
+    .stocklist__links {
+      white-space: nowrap;
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0rem 1.5rem;
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+      }
+      a:hover {
+        transition: 0.5s ease;
+        border-bottom: 1px solid #fff;
+        letter-spacing: 1px;
+      }
+      .active{
+        border-bottom: 1px solid #FFF;
+      }
+      
+    }
+  }
+  .stocklist__navbar-buttons {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    white-space: nowrap;
+    .stocklist__navbar-buttons-signup button {
+      font-family: Manrope;
+      font-weight: 500;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      transition: 0.25s;
+      font-size: 1.2rem;
+    }
+  }
+  .stocklist__navbar-buttons-signup {
+    height: 55px;
+    width: 150px;
+    button {
+      padding: 0.5rem 2rem;
+      background: #ff4820;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .stocklist__navbar {
+    padding: 1rem 3rem;
+    
+    .stocklist-menu {
+      display: block;
+    }
+
+    .stocklist__navbar-buttons-signup button {
+     display: none;
+    }
+
+   
+  }
+}

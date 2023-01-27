@@ -1,0 +1,49 @@
+.charts-update p{
+    font-family: Manrope;
+    text-align: left;
+    margin-left: 2rem;
+
+}
+.watchlist-charts {
+  font-family: Manrope;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  margin: 2rem 2rem;
+}
+.card {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0.5rem 0.5rem;
+  color: white;
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+}
+.card .name {
+  margin-top: 1.5rem;
+}
+.cancel {
+  float: right;
+}
+.watch-icon:hover {
+  fill: red;
+}
+@media screen and (max-width: 600px) {
+  .watchlist-charts {
+    font-family: Manrope;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin: 2rem 2rem;
+  }
+  .card {
+    width: 250px;
+  }
+}
