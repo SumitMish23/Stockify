@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
@@ -14,7 +13,7 @@ function App() {
           <Route exact path="/watchlist" element={<Watchlist />} />
         </Routes>
       </BrowserRouter>
-      </div>
+    </div>
   );
 }
 
