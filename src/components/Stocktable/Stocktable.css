@@ -25,14 +25,15 @@
 .stocks-table .add-icon {
   margin-top: 0.5rem;
 }
-.icon{
-    margin-top: 0.5rem;
+.icon {
+  margin-top: 0.5rem;
 }
 .icon:hover,
 .icon:active {
   fill: blue;
   height: 20px;
-  
 }
 
-
+.clicked {
+  fill: #ff4820;
+}

@@ -1,9 +1,15 @@
 const watchlistReducer = (state = [], action) => {
   switch (action.type) {
     case "watchlist":
-      return [...state, action.payload];
+      if(state.includes(action.payload)){
+        return [...state];
+      }
+      else{
+        return [...state, action.payload];
+      }
+     
     default:
-      return state;
+      return [...state];
   }
 };
 export default watchlistReducer;

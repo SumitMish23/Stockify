@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-
 }
 .search-box input {
   font-family: Manrope;
@@ -26,11 +25,11 @@
   border-radius: 0px 10px 10px 0px;
   border: none;
 }
-@media screen and (max-width: 800px){
-  .search-box input{
-    width:40%
+@media screen and (max-width: 800px) {
+  .search-box input {
+    width: 40%;
   }
-  .search-box button{
+  .search-box button {
     font-size: 0.8rem;
     width: 20%;
   }
